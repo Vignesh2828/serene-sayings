@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore TypeScript build output
+*.js.map
+
+# Ignore any build output directory
+/build/
+
+# Ignore any development or editor-specific files
+.vscode/
+.idea/
+*.log
+
+# Ignore npm-debug.log files
+npm-debug.log*
+
+# Ignore any sensitive or environment-specific files
+.env
+
+# Ignore any package-lock.json files (if using npm)
+package-lock.json
